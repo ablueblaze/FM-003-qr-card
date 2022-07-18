@@ -72,9 +72,23 @@ h1 {
   margin-bottom: 1em;
 }
 
+p {
+  color: var(--clr-grey-blue);
+}
+
 @media (min-width: 470px) {
   .card {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     max-width: 500px;
   }
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
