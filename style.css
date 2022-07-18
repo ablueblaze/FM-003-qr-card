@@ -1,0 +1,80 @@
+:root {
+  --ff-primary: 'Outfit', sans-serif;
+
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  --fs-body: 1rem;
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grey-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+/*  
+############
+Separator Template
+############
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--clr-light-gray);
+  text-align: center;
+  font-family: var(--ff-primary);
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+  background-color: var(--clr-white);
+  border-radius: 1em;
+}
+
+img {
+  margin: 1em;
+  width: 90%;
+  border-radius: 1em;
+}
+
+.text-content {
+  margin: 0 2em 2em;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 470px) {
+  .card {
+    font-size: 1.2rem;
+    max-width: 500px;
+  }
+}
