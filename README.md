@@ -7,8 +7,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
+- [Author](#author)
 
 
+## links
+
+[Demo](https://ablueblaze.github.io/FM-003-qr-card/)
+[Github Repo](https://github.com/ablueblaze/FM-003-qr-card)
 
 ## My process
 
@@ -37,3 +42,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Continued development
 
 Incorporate a QR code that links to my website
+
+## Author
+
+### Blaze Scott
+
+[linkedin](https://www.linkedin.com/in/blaze-scott-3672b891/)
